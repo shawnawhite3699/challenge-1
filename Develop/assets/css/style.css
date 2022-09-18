@@ -1,25 +1,30 @@
-/* Universal Selector */
+/* Universal Selector. Applies this specific style to all HTML elements in the webpage */
+/*Entire webpage settings.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Element Selectors */
+/* Element Selectors. Applies these styles to any HTML element with these three tags. */
+/*Applies to all body elements in the page, so basically everything beside <head>.*/
 body {
     background-color: #d9dcd6;
 }
 
+/*hyperlinked text*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*paragraphs*/
 p {
     font-size: 16px;
 }
 
-/* Class Selectors */
+/* Class Selectors. More specific selector that applies style rules only to elements assigned with these specific class names. */
+/*Overall header style for top of webpage.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,15 +32,18 @@ p {
     color: #ffffff;
 }
 
+/*Style for header at top of page heading level 1.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Changing color for these specific letters in the header, h1 level.*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Overall style and placement for navigation bar.*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,11 +52,13 @@ p {
     font-size: 20px;
 }
 
+/*Style for navigation bar text.*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Style for main page image.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,22 +68,28 @@ p {
     background-position: center;
 }
 
+/*Placement for two images in body.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Placement for one image in body.*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Placement for most of body.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Style for this section of body. SEO, ORM, and SMM are all the same. I tried to consolidate all 3 of these, 
+all three img, and all 3 h2 elements, so there would be 3 total class selectors instead of 9 but it kept moving 
+the side bar. I got stuck.*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -101,6 +117,24 @@ p {
     color: #ffffff;
 }
 
+/*Style for images in this section of body. SEO, ORM, and SMM are all the same. I tried to consolidate all 3 of these, 
+all three img, and all 3 h2 elements, so there would be 3 total class selectors instead of 9 but it kept moving 
+the side bar. I got stuck.*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Style for heading level 2 in this section of body. SEO, ORM, and SMM are all the same. I tried to consolidate all 3 of these, 
+all three img, and all 3 h2 elements, so there would be 3 total class selectors instead of 9 but it kept moving 
+the side bar. I got stuck.*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -116,18 +150,7 @@ p {
     font-size: 36px;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
+/*Style for sidebar content. I consolidated all the specific benefit related tags into benefits to reduce the amount of CSS needed.*/
 .benefits {
     margin-right: 20px;
     padding: 0 35px 35px;
@@ -140,18 +163,21 @@ p {
     color: #ffffff;
 }
 
+/*Style for sidebar heading level 3. I consolidated all the specific benefit related tags into benefits to reduce the amount of CSS needed.*/
 .benefits h3 {
     margin-top: 35px;
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Style for sidebar icons. I consolidated all the specific benefit related tags into benefits to reduce the amount of CSS needed.*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Style for footer at bottom of webpage.*/
 .footer {
     padding: 30px;
     clear: both;
@@ -159,6 +185,7 @@ p {
     text-align: center;
 }
 
+/*Style for heading level 2 in footer at bottom of webpage.*/
 .footer h2 {
     font-size: 20px;
 }
