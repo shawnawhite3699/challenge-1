@@ -32,5 +32,9 @@ THEN I find a concise, descriptive title
 
 ## Screenshot
 
-(https://github.com/shawnawhite3699/challenge-1/blob/main/shawnawhite3699.github.io_challenge-1_.png)
+![Screenshot of refactored webpage.](./Assets/screenshot_challenge-1_.png)
+
+## Deployed Application
+
+https://shawnawhite3699.github.io/challenge-1/
 
