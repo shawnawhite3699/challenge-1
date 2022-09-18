@@ -32,7 +32,7 @@ THEN I find a concise, descriptive title
 
 ## Screenshot
 
-
+![Screenshot of refactored webpage.](./Assets/screenshot_challenge-1_.png)
 
 ## Deployed Application
 
