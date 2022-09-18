@@ -29,3 +29,8 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
+
+## Screenshot
+
+(https://github.com/shawnawhite3699/challenge-1/blob/main/shawnawhite3699.github.io_challenge-1_.png)
+
